@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kaban — Система управления задачами в Телеграм</title>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="pics/icon.png">
+    <!-- End: Favicon -->
+
+    <!-- Required Social Preview MetaTags -->
+
+    <!-- Primary Meta Tags -->
+    <meta name="title" content="Kaban — Система управления задачами в Телеграм" />
+    <meta
+      name="description"
+      content="Превратите свои чаты в инструмент управления задачами: создавайте задачи, устанавливайте сроки и отслеживайте прогресс — и все это не выходя из Телеграм."
+    />
+
+    <!-- LATO — Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;0,900;1,400&display=swap" rel="stylesheet"/>
+    <!-- End: LATO — Google Font -->
+
+    <!-- Main CSS File -->
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/grid.css" />
+    <!-- End: Main CSS File -->
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript" >
+  (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+  m[i].l=1*new Date();
+  for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }}
+  k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+  (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+  ym(98949509, "init", {
+       clickmap:true,
+       trackLinks:true,
+       accurateTrackBounce:true,
+       webvisor:true
+  });
+</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/98949509" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
+  </head>
+  <body>
+    <!-- Preloader -->
+    <div class="preloader">
+      <div class="loader"></div>
+    </div>
+    <!-- Preloader End -->
+    <!-- Header Section -->
+    <header id="home">
+      <nav>
+        <div class="navbar-logo">
+          <a href="#" class="logo">Kaban</a>
+        </div>
+        <div id="navbar" style="display: flex; align-items: center;">
+          <a href="https://t.me/kaban_boar" class="">Попробовать в работе 🚀</a>
+<!-- 
+          <ul>
+            <li class="me-2"><a href="https://t.me/+HwWEuz8bNEFkY2E0">Give it a try</a>
+            <li><a href="#features">FEATURES</a></li>
+            <li><a href="#testimonial">TESTIMONIAL</a></li>
+            <li><a href="#howto">HOW TO</a></li>
+            <li><a href="#download">DOWNLOAD</a></li>
+          </ul>
+-->
+        </div>
+<!-- 
+        <div id="mobileNav">
+          <span onclick="openNav()">&#9776;</span>
+        </div>
+        <div id="myNav" class="mobileNavOverlay">
+          <div class="overlay-content">
+            <a href="javascript:void()" class="close-btn" onclick="closeNav()"
+              >&times;</a
+            >
+            <a href="#home" onclick="closeNav()">HOME</a>
+            <a href="#features" onclick="closeNav()">FEATURES</a>
+            <a href="#testimonial" onclick="closeNav()">TESTIMONIAL</a>
+            <a href="#howto" onclick="closeNav()">HOW TO</a>
+            <a href="#download" onclick="closeNav()">DOWNLOAD</a>
+          </div>
+        </div>
+-->
+      </nav>
+      <div id="hero">
+        <div class="row">
+          <div class="col span_1_of_2">
+            <div class="hero-description">
+              <h1>
+                Управляйте задачами своей команды<br />
+                в Телеграм
+              </h1>
+              <p>
+                Превратите свои чаты в инструмент управления задачами: назначайте исполнителей, устанавливайте сроки и отслеживайте прогресс — и все это не выходя из Телеграм.
+              </p>
+
+              <a href="https://t.me/kaban_boar" class="btn"><span class="download-btn">Демонстрационный канал</span></a>
+            </div>
+          </div>
+          <div class="col span_1_of_2">
+            <img class="hero-img" src="pics/1.png" alt="" />
+          </div>
+        </div>
+      </div>
+      <div class="shape-divider">
+        <div class="custom-shape-divider-bottom-1603385849">
+          <svg
+            data-name="Layer 1"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 1200 120"
+            preserveAspectRatio="none"
+          >
+            <path
+              d="M1200 120L0 16.48 0 0 1200 0 1200 120z"
+              class="shape-fill"
+            ></path>
+          </svg>
+        </div>
+      </div>
+      <button onclick="topFunction()" id="scrollUp" title="Go to top">
+        <svg
+          width="1.5rem"
+          height="1.5rem"
+          viewBox="0 0 16 16"
+          class="bi bi-arrow-up"
+          fill="currentColor"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            fill-rule="evenodd"
+            d="M8 15a.5.5 0 0 0 .5-.5V2.707l3.146 3.147a.5.5 0 0 0 .708-.708l-4-4a.5.5 0 0 0-.708 0l-4 4a.5.5 0 1 0 .708.708L7.5 2.707V14.5a.5.5 0 0 0 .5.5z"
+          />
+        </svg>
+      </button>
+    </header>
+    <!-- End: Header Section -->
+
+    <!-- Features Section -->
+    <section id="features">
+      <div class="row">
+        <div class="col span_1_of_2">
+          <div class="features-images">
+            <img class="features_1" src="pics/2.png" alt="" />
+          </div>
+        </div>
+        <div class="col span_1_of_2">
+          <div class="section-description features-description col1">
+            <h2 class="stylish_heading">
+              Задачи – посты<span class="red_dot">.</span>
+            </h2>
+            <p class="little-description">
+              💡 <b>Основная идея</b>: создайте отдельный Телеграм канал для каждого проекта, пригласите членов своей команды и добавьте туда нашего бота. <br>Каждый пост в канале — это задача. Все просто.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="row second-features-row">
+        <div class="col span_1_of_2">
+          <div class="section-description features-description">
+            <h2 class="stylish_heading">
+              Удобный дашборд<span class="red_dot">.</span>
+            </h2>
+            <p class="little-description">
+              Быстрый обзор хода выполнения проекта в режиме реального времени. <br> Отслеживайте прогресс вашей команды, контролируйте процесс, мгновенно находите нужные вам задачи.
+            </p>
+          </div>
+        </div>
+        <div class="col span_1_of_2">
+          <div class="features-images">
+            <img class="features_3" src="pics/3.png" alt="" />
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col span_1_of_2">
+          <div class="features-images">
+            <img class="features_1" src="pics/4.png" alt="" />
+          </div>
+        </div>
+        <div class="col span_1_of_2">
+          <div class="section-description features-description col1">
+            <h2 class="stylish_heading">
+              Свойства задач<span class="red_dot">.</span>
+            </h2>
+            <p class="little-description">
+              Устанавливайте сроки, приоритеты и назначайте исполнителей. Добавляйте теги, вложения, обложки задач, комментарии и реакции участников — все это в привычном интерфейсе Telegram.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="row second-features-row">
+        <div class="col span_1_of_2">
+          <div class="section-description features-description">
+            <h2 class="stylish_heading">
+              Текстовые команды<span class="red_dot">.</span>
+            </h2>
+            <p class="little-description">
+              Используйте простые текстовые команды, такие как «готово», «срок завтра», «приоритет высокий», чтобы обновить свойства задачи. Проще не бывает.
+            </p>
+          </div>
+        </div>
+        <div class="col span_1_of_2">
+          <div class="features-images">
+            <img class="features_3" src="pics/5.png" alt="" />
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col span_1_of_2">
+          <div class="features-images">
+            <img class="features_1" src="pics/6.png" alt="" />
+          </div>
+        </div>
+        <div class="col span_1_of_2">
+          <div class="section-description features-description col1">
+            <h2 class="stylish_heading">
+              Контроль сроков<span class="red_dot">.</span>
+            </h2>
+            <p class="little-description">
+              Бот будет постоянно отслеживает срок задач, которые необходимо выполнить, и отмечает их специальными тегами <b>#сегодня</b>, <b>#завтра</b>, <b>#просроченная</b> и т. д.<br> Планируйте свои задачи и не забывайте о них.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="row second-features-row">
+        <div class="col span_1_of_2">
+          <div class="section-description features-description">
+            <h2 class="stylish_heading">
+              Быстрый поиск<span class="red_dot">.</span>
+            </h2>
+            <p class="little-description">
+              Фильтруйте свои задачи с помощью встроенного поиска Telegram. Объединяйте ключевые слова, чтобы найти то, что вам нужно. Например, <b>#срочно</b> и <b>#завтра</b>.
+            </p>
+          </div>
+        </div>
+        <div class="col span_1_of_2">
+          <div class="features-images">
+            <img class="features_3" src="pics/7.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End: Features Section -->
+
+    <!-- How To Section -->
+    <section id="howto">
+      <div class="row">
+        <div class="col span_1_of_3 first-col">
+          <div class="first-item">
+            <div class="item-description">
+              <h4>Управляйте задачами своей команды</h4>
+              <p>
+                Нет необходимости в сторонних приложениях — используйте привычный интерфейс Telegram для управления задачами.
+              </p>
+            </div>
+            <div class="item-icon1">
+            </div>
+          </div>
+          <div class="first-item">
+            <div class="item-description">
+              <h4>Следите за прогрессом команды</h4>
+              <p>
+                Следите за своим прогрессом, контролируйте процесс работы над задачами.
+              </p>
+            </div>
+            <div class="item-icon1">
+            </div>
+          </div>
+        </div>
+        <div class="col span_1_of_3 second-col">
+          <img class="big_image" src="pics/1.png" alt="" />
+        </div>
+        <div class="col span_1_of_3 third-col">
+          <div class="last-item">
+            <div class="item-icon2">
+            </div>
+            <div class="item-description">
+              <h4>Не теряйте свои задачи</h4>
+              <p>
+                Общайтесь с командой, используйте комментарии и реакции – вся информация хранится в едином информационном поле.
+              </p>
+            </div>
+          </div>
+          <div class="last-item">
+            <div class="item-icon2">
+            </div>
+            <div class="item-description">
+              <h4>Упростите рабочие процессы вашей команды</h4>
+              <p>
+                Используйте простые решения для эффективной работы.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End: How To Section -->
+
+    <!-- Download The App Section -->
+    <section id="download">
+      <div class="row">
+        <img class="app-logo" src="pics/boar.png" alt="" />
+        <h2 class="stylish_heading">
+          Просто попробуйте<span class="red_dot">.</span>
+        </h2>
+        <p class="">
+          Попробуйте бесплатно все возможности нашей системы в демо-канале.
+        </p>
+
+        <a href="https://t.me/kaban_boar" class="btn"><span class="download-btn">Посмотреть демо-канал</span></a>
+
+      </div>
+    </section>
+    <!-- End: Download The App Section -->
+
+<!-- 
+    <section id="footer">
+      <div class="links">
+        <ul>
+          <li><a href="#home">HOME</a></li>
+          <li><a href="#features">FEATURES</a></li>
+          <li><a href="#testimonial">TESTIMONIAL</a></li>
+          <li><a href="#howto">HOW TO</a></li>
+          <li><a href="#download">DOWNLOAD</a></li>
+        </ul>
+      </div>
+      <div class="language-option">
+        <select name="Languages">
+          <option value="English" selected>ENGLISH</option>
+          <option value="বাংলা">বাংলা</option>
+          <option value="हिन्दी">हिन्दी</option>
+        </select>
+      </div>
+-->
+    </section>
+    <!-- End: Footer Section -->
+
+    <!-- Required JavaScript Files & CDN -->
+    <!-- JQuery CDN -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- Main JS Files -->
+    <script src="js/essential.js"></script>
+    <script src="js/jquery.nice-select.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
