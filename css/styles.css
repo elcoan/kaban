@@ -923,11 +923,11 @@ nav {
   .logo {
     font-size: 1.875rem;
   }
-/*
+
   #navbar {
     display: none;
   }
-*/
+
   .hero-description {
     text-align: center;
     margin-top: 0.625rem;
@@ -1098,11 +1098,11 @@ nav {
   #mobileNav {
     display: block;
   }
-/*
+
   #navbar {
     display: none;
   }
-*/
+
   #hero {
     margin: 50px 0;
   }
@@ -1284,11 +1284,11 @@ nav {
   #mobileNav span {
     font-size: 2.5rem;
   }
-/*
+
   #navbar {
     display: none;
   }
-*/
+
   .overlay-content a {
     font-size: 40px;
   }
@@ -1410,11 +1410,11 @@ nav {
   #mobileNav span {
     font-size: 2.5rem;
   }
-/*
+
   #navbar {
     display: none;
   }
-*/
+
   .overlay-content a {
     font-size: 40px;
   }
